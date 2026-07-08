@@ -1,0 +1,232 @@
+body{
+    margin:0;
+    font-family:'Segoe UI',sans-serif;
+}
+
+.contact-container{
+
+    min-height:100vh;
+
+    display:flex;
+
+    justify-content:center;
+
+    align-items:center;
+
+    background-image:
+    linear-gradient(
+        rgba(0,0,0,0.4),
+        rgba(0,0,0,0.4)
+    ),
+    url("./images/wallpaper.jpg");
+
+    background-size:cover;
+
+    background-position:center;
+
+    background-repeat:no-repeat;
+
+    padding:20px;
+}
+
+.contact-card{
+
+    width:500px;
+
+    padding:40px;
+
+    border-radius:30px;
+
+    background:
+    rgba(255,255,255,0.12);
+
+    backdrop-filter:
+    blur(20px);
+
+    border:
+    1px solid rgba(
+        255,255,255,0.3
+    );
+
+    box-shadow:
+    0 15px 40px
+    rgba(0,0,0,0.3);
+
+    display:flex;
+
+    flex-direction:column;
+
+    gap:18px;
+
+    transition:0.4s;
+}
+
+.contact-card:hover{
+
+    transform:
+    translateY(-8px);
+
+    box-shadow:
+    0 20px 50px
+    rgba(0,0,0,0.4);
+}
+
+.contact-card h1{
+
+    text-align:center;
+
+    color:white;
+
+    font-size:38px;
+
+    margin-bottom:10px;
+
+    text-shadow:
+    2px 2px 10px
+    rgba(0,0,0,0.4);
+}
+
+.contact-card input,
+.contact-card textarea{
+
+    padding:16px;
+
+    border:none;
+
+    outline:none;
+
+    border-radius:15px;
+
+    background:
+    rgba(255,255,255,0.2);
+
+    color:white;
+
+    font-size:16px;
+
+    backdrop-filter:
+    blur(5px);
+
+    transition:0.3s;
+}
+
+.contact-card input::placeholder,
+.contact-card textarea::placeholder{
+
+    color:
+    rgba(255,255,255,0.8);
+}
+
+.contact-card input:focus,
+.contact-card textarea:focus{
+
+    background:
+    rgba(255,255,255,0.3);
+
+    box-shadow:
+    0 0 20px
+    rgba(255,255,255,0.4);
+
+    transform:
+    scale(1.02);
+}
+
+.contact-card textarea{
+
+    height:140px;
+
+    resize:none;
+}
+
+.contact-card button{
+
+    padding:16px;
+
+    border:none;
+
+    border-radius:50px;
+
+    font-size:18px;
+
+    font-weight:bold;
+
+    color:white;
+
+    cursor:pointer;
+
+    background:
+    linear-gradient(
+        135deg,
+        #ff6b6b,
+        #ff416c,
+        #ff4b2b
+    );
+
+    transition:0.4s;
+
+    letter-spacing:1px;
+}
+
+.contact-card button:hover{
+
+    transform:
+    translateY(-3px)
+    scale(1.03);
+
+    box-shadow:
+    0 10px 25px
+    rgba(255,75,43,0.5);
+}
+
+.contact-card button:active{
+
+    transform:
+    scale(0.95);
+}
+
+.contact-card::before{
+
+    content:"";
+
+    position:absolute;
+
+    width:150px;
+
+    height:150px;
+
+    background:
+    rgba(255,255,255,0.15);
+
+    border-radius:50%;
+
+    top:-50px;
+
+    right:-50px;
+}
+
+.contact-card::after{
+
+    content:"";
+
+    position:absolute;
+
+    width:120px;
+
+    height:120px;
+
+    background:
+    rgba(255,255,255,0.1);
+
+    border-radius:50%;
+
+    bottom:-40px;
+
+    left:-40px;
+}
+
+.contact-card{
+
+    position:relative;
+
+    overflow:hidden;
+}

@@ -1,0 +1,189 @@
+.details-container{
+
+    min-height:100vh;
+
+    background:
+    linear-gradient(
+        rgba(0,0,0,0.6),
+        rgba(0,0,0,0.6)
+    ),
+    url("./images/wallpaper.jpg");
+
+    background-size:cover;
+
+    background-position:center;
+
+    background-attachment:fixed;
+
+    display:flex;
+
+    justify-content:center;
+
+    align-items:center;
+
+    padding:40px;
+}
+
+.details-card{
+
+    width:1100px;
+
+    background:
+    rgba(255,255,255,0.15);
+
+    backdrop-filter:blur(15px);
+
+    border-radius:30px;
+
+    padding:30px;
+
+    display:flex;
+
+    gap:40px;
+
+    box-shadow:
+    0 15px 40px
+    rgba(0,0,0,0.4);
+}
+
+.image-section{
+    flex:1;
+}
+
+.product-image{
+
+    width:100%;
+
+    height:500px;
+
+    object-fit:cover;
+
+    border-radius:25px;
+
+    transition:0.4s;
+}
+
+.product-image:hover{
+    transform:scale(1.03);
+}
+
+.info-section{
+    flex:1;
+
+    color:white;
+
+    display:flex;
+
+    flex-direction:column;
+
+    justify-content:center;
+}
+
+.product-name{
+    font-size:45px;
+    margin-bottom:10px;
+}
+
+.product-price{
+    font-size:35px;
+    color:#ffeb3b;
+    margin-bottom:20px;
+}
+
+.product-description{
+    font-size:18px;
+    line-height:1.8;
+    margin-bottom:30px;
+}
+
+.button-group{
+    display:flex;
+    gap:15px;
+    flex-wrap:wrap;
+}
+
+.favorite-btn{
+
+    background:
+    linear-gradient(
+        45deg,
+        #ff4081,
+        #ff80ab
+    );
+
+    color:white;
+}
+
+.cart-btn{
+
+    background:
+    linear-gradient(
+        45deg,
+        #00c853,
+        #64dd17
+    );
+
+    color:white;
+}
+
+.buy-btn{
+
+    background:
+    linear-gradient(
+        45deg,
+        #ff9800,
+        #ff5722
+    );
+
+    color:white;
+}
+
+.favorite-btn,
+.cart-btn,
+.buy-btn{
+
+    border:none;
+
+    padding:15px 25px;
+
+    border-radius:30px;
+
+    font-size:17px;
+
+    cursor:pointer;
+
+    transition:0.3s;
+}
+
+.favorite-btn:hover,
+.cart-btn:hover,
+.buy-btn:hover{
+
+    transform:
+    translateY(-4px);
+
+    box-shadow:
+    0 10px 20px
+    rgba(0,0,0,0.3);
+}
+
+.back-btn{
+
+    position:absolute;
+
+    top:30px;
+
+    left:30px;
+
+    border:none;
+
+    background:white;
+
+    padding:12px 20px;
+
+    border-radius:25px;
+
+    cursor:pointer;
+
+    font-weight:bold;
+}

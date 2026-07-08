@@ -1,0 +1,60 @@
+.home-container1{
+    min-height: 100vh;
+    background-image: url("./images/wallpaper.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 50px;
+    color: white;
+    border: 10px;
+    border-radius: 20px;
+}
+.color4{
+    font-size: 60px;
+    color: #ef1968;
+}
+.color5{
+    margin-top: -5.4%;
+    margin-left: 13%;
+    font-size: 60px;
+    color: #454043;;
+}
+.color6{
+    padding-bottom: 3%;
+    font-size: 30px;
+    color: #454043;
+    margin-top: 3%;
+}
+
+.home-container1 p{
+    width: 50%;
+    line-height: 1.6;
+}
+
+.home-container1 button{
+    margin-top: 1%;
+    width: 10%;
+    padding:6px 3px 6px 3px;
+    border: none;
+    border-radius: 30px;
+    background: #454043;
+    color: white;
+    font-size: 18px;
+    cursor: pointer;
+}
+.home-container1 button{
+    font-size: 16px;
+    font-style: italic;
+}
+.home-container1 button:hover{
+    background: #ef1968;;
+    transform: translateY(-1.5px);
+    box-shadow: 0 5px 15px rgba(255,77,141,0.4);
+}
+.home-container1 button:active{
+    transform: scale(0.95);
+    background: #e63e7d;
+}

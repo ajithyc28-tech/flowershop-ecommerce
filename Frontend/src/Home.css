@@ -1,0 +1,70 @@
+body{
+    background-color: whitesmoke;
+}
+.home-container{
+    min-height: 100vh;
+    background-image: url("./images/wallpaper.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 70px;
+    color: white;
+    border: 10px;
+    border-radius: 20px;
+}
+img{
+    width: 100%;
+    height: auto;
+}
+.color1{
+    font-size: 60px;
+    color: #ef1968;
+    padding-bottom: 0%;
+}
+.color2{
+    margin-top: -5.8%;
+    margin-left: 11%;
+    font-size: 60px;
+    color: #454043;
+}
+.color3{
+    font-size: 30px;
+    color: #454043;
+    margin-top: -0.5%;
+    padding-left:0%;
+    padding-top: 3%;
+    padding-bottom: 3%;
+}
+
+.home-container p{
+    width: 50%;
+    line-height: 1.6;
+}
+
+.home-container button{
+    margin-top: 1%;
+    width: 10%;
+    padding:6px 3px 6px 3px;
+    border: none;
+    border-radius: 30px;
+    background: #454043;
+    color: white;
+    font-size: 18px;
+    cursor: pointer;
+}
+.home-container button{
+    font-size: 16px;
+    font-style: italic;
+}
+.home-container button:hover{
+    background: #ef1968;;
+    transform: translateY(-1.5px);
+    box-shadow: 0 5px 15px rgba(255,77,141,0.4);
+}
+.home-container button:active{
+    transform: scale(0.95);
+    background: #e63e7d;
+}

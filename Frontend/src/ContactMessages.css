@@ -1,0 +1,93 @@
+.messages-container{
+
+    min-height:100vh;
+
+    background-image:
+    url("./images/wallpaper.jpg");
+
+    background-size:cover;
+
+    background-position:center;
+
+    background-repeat:no-repeat;
+}
+
+.overlay{
+
+    min-height:100vh;
+
+    background:
+    rgba(0,0,0,0.5);
+
+    padding:40px;
+}
+
+.title{
+
+    text-align:center;
+
+    color:white;
+
+    font-size:40px;
+
+    margin-bottom:30px;
+}
+
+.message-card{
+
+    width:80%;
+
+    margin:20px auto;
+
+    padding:20px;
+
+    border-radius:20px;
+
+    backdrop-filter:blur(10px);
+
+    background:
+    rgba(255,255,255,0.15);
+
+    border:
+    1px solid rgba(
+        255,255,255,0.3
+    );
+
+    color:white;
+
+    box-shadow:
+    0 8px 32px
+    rgba(0,0,0,0.3);
+
+    transition:0.3s;
+}
+
+.message-card:hover{
+
+    transform:
+    translateY(-5px)
+    scale(1.02);
+}
+
+.message-card h3{
+
+    color:#ffd700;
+
+    margin-bottom:10px;
+}
+
+.message-card p{
+
+    font-size:17px;
+
+    line-height:1.8;
+}
+
+.empty{
+
+    text-align:center;
+
+    color:white;
+
+    font-size:25px;
+}

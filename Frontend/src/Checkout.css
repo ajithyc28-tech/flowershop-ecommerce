@@ -1,0 +1,114 @@
+.checkout-container{
+
+    min-height:100vh;
+
+    display:flex;
+
+    justify-content:center;
+
+    align-items:center;
+
+    background:
+    linear-gradient(
+        rgba(0,0,0,0.5),
+        rgba(0,0,0,0.5)
+    ),
+    url("./images/wallpaper.jpg");
+
+    background-size:cover;
+    background-position:center;
+    background-attachment:fixed;
+
+    padding:20px;
+}
+
+.checkout-card{
+
+    width:450px;
+
+    background:
+    rgba(255,255,255,0.15);
+
+    backdrop-filter:blur(15px);
+
+    border-radius:25px;
+
+    padding:35px;
+
+    box-shadow:
+    0 15px 35px
+    rgba(0,0,0,0.3);
+
+    text-align:center;
+}
+
+.checkout-title{
+
+    color:white;
+
+    font-size:40px;
+
+    margin-bottom:25px;
+}
+
+.checkout-input{
+
+    width:100%;
+
+    padding:15px;
+
+    margin-bottom:15px;
+
+    border:none;
+
+    border-radius:12px;
+
+    outline:none;
+
+    font-size:16px;
+
+    background:
+    rgba(255,255,255,0.9);
+}
+
+.place-order-btn{
+
+    width:100%;
+
+    padding:15px;
+
+    border:none;
+
+    border-radius:30px;
+
+    background:
+    linear-gradient(
+        45deg,
+        #ef1968,
+        #ff9800
+    );
+
+    color:white;
+
+    font-size:18px;
+
+    font-weight:bold;
+
+    cursor:pointer;
+
+    transition:0.3s;
+}
+
+.place-order-btn:hover{
+
+    transform:translateY(-3px);
+
+    box-shadow:
+    0 10px 25px
+    rgba(239,25,104,0.4);
+}
+
+.order-icon{
+    font-size:55px;
+    margin-bottom:10px;
+}
